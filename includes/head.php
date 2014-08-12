@@ -11,7 +11,6 @@
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="icon" type="image/x-icon"/> 
 <link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/wet-boew.min.css"/> 
 <!--<![endif]-->
-<link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/theme.min.css"/>
 <!--[if lt IE 9]>
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="shortcut icon"/> 
 <link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/ie8-wet-boew.min.css"/> 
