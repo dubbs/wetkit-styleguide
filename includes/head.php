@@ -20,3 +20,12 @@
 <![endif]-->
 <noscript><link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/noscript.min.css"/></noscript>
 </head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+</li>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+</li>
+</ul>
