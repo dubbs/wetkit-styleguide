@@ -1,4 +1,3 @@
-<?php include '../includes/head.php' ?>
 <div class="wb-tabs">
 <div class="tabpanels">
 <details id="details-panel1">
@@ -65,4 +64,3 @@ of their forefathers and of any notable things which they had done.
 </details>
 </div>
 </div>
-<?php include '../includes/footer.php' ?>

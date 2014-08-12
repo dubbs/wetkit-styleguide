@@ -1,4 +1,3 @@
-<?php include '../includes/head.php' ?>
 <table class="wb-tables table">
 <thead>
 <tr>
@@ -415,6 +414,3 @@ Explorer 6</td>
 </tr>
 </tbody>
 </table>
-
-
-<?php include '../includes/footer.php' ?>
