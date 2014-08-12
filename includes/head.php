@@ -42,3 +42,6 @@
 	include $filename;
 	echo "\n" . '</div>' . "\n\n";
 } ?>
+
+<!-- syntax highlight all pre-tags on page -->
+<span class="wb-prettify all-pre"></span>

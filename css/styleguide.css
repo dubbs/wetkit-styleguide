@@ -8,3 +8,6 @@ body {
 .pattern, details {
 	margin-bottom: 16px;
 }
+pre {
+	margin: 0;
+}
