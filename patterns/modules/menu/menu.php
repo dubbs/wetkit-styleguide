@@ -1,5 +1,3 @@
-<?php include '../includes/head.php' ?>
-
 <header role="banner">
 	<div id="wb-bnr">
 		<div id="wb-bar">
@@ -16,7 +14,7 @@
 			</div>
 		</div>
 	</div>
-	<nav role="navigation" id="wb-sm" data-ajax-fetch="menu-include-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+	<nav role="navigation" id="wb-sm" data-ajax-fetch="/wetkit-styleguide/modules/menu/menu-ajax" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 		<div class="container nvbar">
 			<h2>Topics menu</h2>
 			<div class="row">
@@ -29,5 +27,3 @@
 		</div>
 	</nav>
 </header>
-
-<?php include '../includes/footer.php' ?>
