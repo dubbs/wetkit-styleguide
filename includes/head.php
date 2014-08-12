@@ -11,7 +11,6 @@
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="icon" type="image/x-icon"/> 
 <link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/wet-boew.min.css"/> 
 <!--<![endif]-->
-<link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/theme.min.css"/>
 <!--[if lt IE 9]>
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="shortcut icon"/> 
 <link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/ie8-wet-boew.min.css"/> 
@@ -21,11 +20,11 @@
 <noscript><link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/noscript.min.css"/></noscript>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
-<ul id="wb-tphp">
-<li class="wb-slc">
-<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-</li>
-<li class="wb-slc visible-sm visible-md visible-lg">
-<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-</li>
-</ul>
+	<ul id="wb-tphp">
+		<li class="wb-slc">
+			<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+		</li>
+		<li class="wb-slc visible-sm visible-md visible-lg">
+			<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+		</li>
+	</ul>
