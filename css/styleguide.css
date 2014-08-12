@@ -1,0 +1,10 @@
+body {
+	padding: 100px;
+}
+.pattern {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 16px;
+}
+.pattern, details {
+	margin-bottom: 16px;
+}

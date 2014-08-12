@@ -11,6 +11,8 @@
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="icon" type="image/x-icon"/> 
 <link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/wet-boew.min.css"/> 
 <!--<![endif]-->
+<link rel="stylesheet" href="/wetkit-styleguide/css/style.css">
+<link rel="stylesheet" href="/wetkit-styleguide/css/styleguide.css">
 <!--[if lt IE 9]>
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="shortcut icon"/> 
 <link rel="stylesheet" href="http://wet-boew.github.io/v4.0-ci/css/ie8-wet-boew.min.css"/> 
@@ -28,3 +30,15 @@
 			<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 		</li>
 	</ul>
+
+<?php function patternize($title, $filename) {
+	echo '<div class="pattern">' . "\n";
+	echo ' <details class="pattern-details">' . "\n";
+	echo '  <summary class="pattern-name">'.$title.'</summary>' . "\n";
+	echo '  <pre><code class="language-markup">' . "\n";
+	echo htmlspecialchars(file_get_contents($filename));
+	echo '  </code></pre>' . "\n";
+	echo ' </details>' . "\n";
+	include $filename;
+	echo "\n" . '</div>' . "\n\n";
+} ?>
