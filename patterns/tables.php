@@ -1,5 +1,4 @@
 <?php include '../includes/head.php' ?>
-<h1>test</h1>
 <table class="wb-tables table">
 <thead>
 <tr>
