@@ -11,8 +11,8 @@
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="icon" type="image/x-icon"/> 
 <link rel="stylesheet" href="/wetkit-styleguide/wet-boew-dist/css/wet-boew.min.css"/> 
 <!--<![endif]-->
-<link rel="stylesheet" href="/wetkit-styleguide/css/style.css">
-<link rel="stylesheet" href="/wetkit-styleguide/css/styleguide.css">
+<link rel="stylesheet" href="/wetkit-styleguide/assets/css/style.css">
+<link rel="stylesheet" href="/wetkit-styleguide/assets/css/styleguide.css">
 <!--[if lt IE 9]>
 <link href="/wetkit-styleguide/wet-boew-dist/assets/favicon.ico" rel="shortcut icon"/> 
 <link rel="stylesheet" href="/wetkit-styleguide/wet-boew-dist/css/ie8-wet-boew.min.css"/> 
@@ -45,3 +45,35 @@
 
 <!-- syntax highlight all pre-tags on page -->
 <span class="wb-prettify all-pre"></span>
+
+<ul>
+	<li>
+		<a href="/wetkit-styleguide/">home</a>
+	</li>
+	<li>
+		<a href="/wetkit-styleguide/elements">elements</a>
+		<ul>
+			<li>
+				<a href="/wetkit-styleguide/elements/category/sections">headings</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/elements/category/text-level-semantics">text</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/elements/category/grouping-content">lists & paragraphs</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/elements/category/forms">forms</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/elements/category/tabular-data">tables</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/elements/category/interactive-elements">details & summary</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="/wetkit-styleguide/components">components</a>
+	</li>
+</ul>
