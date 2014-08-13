@@ -1,5 +1,5 @@
-<?php include '../../../includes/head.php' ?>
+<?php include '../../includes/head.php' ?>
 
 <?php patternize('Menu', 'menu.php'); ?>
 
-<?php include '../../../includes/footer.php' ?>
+<?php include '../../includes/footer.php' ?>

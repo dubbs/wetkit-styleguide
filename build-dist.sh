@@ -1,7 +1,7 @@
 cp -a wet-boew wet-boew-copy
 cd wet-boew-copy
-# sudo npm install -g grunt-cli yo bower
-# npm install
+sudo npm install -g grunt-cli yo bower
+npm install
 grunt build assets-min
 cd ..
 rm -rf wet-boew-dist
