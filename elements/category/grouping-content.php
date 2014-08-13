@@ -1,18 +1,18 @@
-<?php include '../../includes/head.php' ?>
+<?php include '../../includes/head.php';
 	
-<?php patternize('P',          '../p.html'); ?>
-<?php patternize('HR',         '../hr.html'); ?>
-<?php patternize('PRE',        '../pre.html'); ?>
-<?php patternize('BLOCKQUOTE', '../blockquote.html'); ?>
-<?php patternize('OL',         '../ol.html'); ?>
-<?php patternize('UL',         '../ul.html'); ?>
-<?php //patternize('LI',         '../li.html'); ?>
-<?php patternize('DL',         '../dl.html'); ?>
-<?php //patternize('DT',         '../dt.html'); ?>
-<?php //patternize('DD',         '../dd.html'); ?>
-<?php patternize('FIGURE',     '../figure.html'); ?>
-<?php //patternize('FIGCAPTION', '../figcaption.html'); ?>
-<?php //patternize('MAIN',       '../main.html'); ?>
-<?php //patternize('DIV',        '../div.html'); ?>
+patternize('P',          '../p.html');
+patternize('HR',         '../hr.html');
+patternize('PRE',        '../pre.html');
+patternize('BLOCKQUOTE', '../blockquote.html');
+patternize('OL',         '../ol.html');
+patternize('UL',         '../ul.html');
+// patternize('LI',         '../li.html');
+patternize('DL',         '../dl.html');
+// patternize('DT',         '../dt.html');
+// patternize('DD',         '../dd.html');
+patternize('FIGURE',     '../figure.html');
+// patternize('FIGCAPTION', '../figcaption.html');
+// patternize('MAIN',       '../main.html');
+// patternize('DIV',        '../div.html');
 
-<?php include '../../includes/footer.php' ?>
+include '../../includes/footer.php';

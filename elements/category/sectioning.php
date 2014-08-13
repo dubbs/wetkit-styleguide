@@ -1,10 +1,10 @@
-<?php include '../../includes/head.php' ?>
+<?php include '../../includes/head.php';
 	
-<?php patternize('H1', '../h1.html'); ?>
-<?php patternize('H2', '../h2.html'); ?>
-<?php patternize('H3', '../h3.html'); ?>
-<?php patternize('H4', '../h4.html'); ?>
-<?php patternize('H5', '../h5.html'); ?>
-<?php patternize('H6', '../h6.html'); ?>
+patternize('H1', '../h1.html');
+patternize('H2', '../h2.html');
+patternize('H3', '../h3.html');
+patternize('H4', '../h4.html');
+patternize('H5', '../h5.html');
+patternize('H6', '../h6.html');
 
-<?php include '../../includes/footer.php' ?>
+include '../../includes/footer.php';

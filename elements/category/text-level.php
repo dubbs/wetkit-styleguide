@@ -1,35 +1,35 @@
-<?php include '../../includes/head.php' ?>
+<?php include '../../includes/head.php';
 
-<?php patternize('A',      '../a.html'); ?>
-<?php patternize('EM',     '../em.html'); ?>
-<?php patternize('STRONG', '../strong.html'); ?>
-<?php patternize('SMALL',  '../small.html'); ?>
-<?php //patternize('S',      '../s.html'); ?>
-<?php //patternize('cite',   '../cite.html'); ?>
-<?php patternize('q',      '../q.html'); ?>
-<?php //patternize('dfn',    '../dfn.html'); ?>
-<?php patternize('abbr',   '../abbr.html'); ?>
-<?php //patternize('ruby',   '../ruby.html'); ?>
-<?php //patternize('rb',     '../rb.html'); ?>
-<?php //patternize('rt',     '../rt.html'); ?>
-<?php //patternize('rtc',    '../rtc.html'); ?>
-<?php //patternize('rp',     '../rp.html'); ?>
-<?php //patternize('data',   '../data.html'); ?>
-<?php //patternize('time',   '../time.html'); ?>
-<?php //patternize('code',   '../code.html'); ?>
-<?php //patternize('var',    '../var.html'); ?>
-<?php //patternize('samp',   '../samp.html'); ?>
-<?php //patternize('kbd',    '../kbd.html'); ?>
-<?php patternize('sub',    '../sub.html'); ?>
-<?php patternize('sup',    '../sup.html'); ?>
-<?php //patternize('i',      '../i.html'); ?>
-<?php //patternize('b',      '../b.html'); ?>
-<?php //patternize('u',      '../u.html'); ?>
-<?php //patternize('mark',   '../mark.html'); ?>
-<?php //patternize('bdi',    '../bdi.html'); ?>
-<?php //patternize('bdo',    '../bdo.html'); ?>
-<?php //patternize('span',   '../span.html'); ?>
-<?php //patternize('br',     '../br.html'); ?>
-<?php //patternize('wbr',    '../wbr.html'); ?>
+patternize('A',      '../a.html');
+patternize('EM',     '../em.html');
+patternize('STRONG', '../strong.html');
+patternize('SMALL',  '../small.html');
+// patternize('S',      '../s.html');
+// patternize('cite',   '../cite.html');
+patternize('q',      '../q.html');
+// patternize('dfn',    '../dfn.html');
+patternize('abbr',   '../abbr.html');
+// patternize('ruby',   '../ruby.html');
+// patternize('rb',     '../rb.html');
+// patternize('rt',     '../rt.html');
+// patternize('rtc',    '../rtc.html');
+// patternize('rp',     '../rp.html');
+// patternize('data',   '../data.html');
+// patternize('time',   '../time.html');
+// patternize('code',   '../code.html');
+// patternize('var',    '../var.html');
+// patternize('samp',   '../samp.html');
+// patternize('kbd',    '../kbd.html');
+patternize('sub',    '../sub.html');
+patternize('sup',    '../sup.html');
+// patternize('i',      '../i.html');
+// patternize('b',      '../b.html');
+// patternize('u',      '../u.html');
+// patternize('mark',   '../mark.html');
+// patternize('bdi',    '../bdi.html');
+// patternize('bdo',    '../bdo.html');
+// patternize('span',   '../span.html');
+// patternize('br',     '../br.html');
+// patternize('wbr',    '../wbr.html');
 
-<?php include '../../includes/footer.php' ?>
+include '../../includes/footer.php';
