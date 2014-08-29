@@ -70,13 +70,13 @@
 <?php if (startsWith($_SERVER['REQUEST_URI'], '/wetkit-styleguide/components')) { ?>
 		<ul>
 			<li>
-				<a href="/wetkit-styleguide/components/menu/all">Menu</a>
+				<a href="/wetkit-styleguide/components/menu/all">menu</a>
 			</li>
 			<li>
-				<a href="/wetkit-styleguide/components/overlay/all">Overlay</a>
+				<a href="/wetkit-styleguide/components/overlay/all">overlay</a>
 			</li>
 			<li>
-				<a href="/wetkit-styleguide/components/tabs/all">Tabs</a>
+				<a href="/wetkit-styleguide/components/tabs/all">tabs</a>
 			</li>
 		</ul>
 <?php } ?>
