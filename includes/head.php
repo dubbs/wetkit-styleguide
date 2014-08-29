@@ -9,17 +9,17 @@
 
 <!--[if gte IE 9 | !IE ]><!-->
 <link href="http://wet-boew.github.io/v4.0-ci/assets/favicon.ico" rel="icon" type="image/x-icon"/> 
-<link rel="stylesheet" href="/wetkit-styleguide/wet-boew-dist/css/wet-boew.min.css"/> 
+<link rel="stylesheet" href="/wetkit-styleguide/vendor/wet-boew/css/wet-boew.min.css"/> 
 <!--<![endif]-->
 <link rel="stylesheet" href="/wetkit-styleguide/assets/css/style.css">
 <link rel="stylesheet" href="/wetkit-styleguide/assets/css/styleguide.css">
 <!--[if lt IE 9]>
-<link href="/wetkit-styleguide/wet-boew-dist/assets/favicon.ico" rel="shortcut icon"/> 
-<link rel="stylesheet" href="/wetkit-styleguide/wet-boew-dist/css/ie8-wet-boew.min.css"/> 
+<link href="/wetkit-styleguide/vendor/wet-boew/assets/favicon.ico" rel="shortcut icon"/> 
+<link rel="stylesheet" href="/wetkit-styleguide/vendor/wet-boew/css/ie8-wet-boew.min.css"/> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-<script src="/wetkit-styleguide/wet-boew-dist/js/ie8-wet-boew.min.js"></script>
+<script src="/wetkit-styleguide/vendor/wet-boew/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
-<noscript><link rel="stylesheet" href="/wetkit-styleguide/wet-boew-dist/css/noscript.min.css"/></noscript>
+<noscript><link rel="stylesheet" href="/wetkit-styleguide/vendor/wet-boew/css/noscript.min.css"/></noscript>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
 	<ul id="wb-tphp">
@@ -31,17 +31,7 @@
 		</li>
 	</ul>
 
-<?php function patternize($title, $filename) {
-	echo '<div class="pattern">' . "\n";
-	echo ' <details class="pattern-details">' . "\n";
-	echo '  <summary class="pattern-name">'.$title.'</summary>' . "\n";
-	echo '  <pre><code class="language-markup">' . "\n";
-	echo htmlspecialchars(file_get_contents($filename));
-	echo '  </code></pre>' . "\n";
-	echo ' </details>' . "\n";
-	include $filename;
-	echo "\n" . '</div>' . "\n\n";
-} ?>
+<?php include __DIR__ . '/helpers.php' ?>
 
 <!-- syntax highlight all pre-tags on page -->
 <span class="wb-prettify all-pre"></span>
@@ -52,6 +42,7 @@
 	</li>
 	<li>
 		<a href="/wetkit-styleguide/elements">elements</a>
+<?php if (startsWith($_SERVER['REQUEST_URI'], '/wetkit-styleguide/elements')) { ?>
 		<ul>
 			<li>
 				<a href="/wetkit-styleguide/elements/category/sections">headings</a>
@@ -72,8 +63,22 @@
 				<a href="/wetkit-styleguide/elements/category/interactive-elements">details & summary</a>
 			</li>
 		</ul>
+<?php } ?>
 	</li>
 	<li>
 		<a href="/wetkit-styleguide/components">components</a>
+<?php if (startsWith($_SERVER['REQUEST_URI'], '/wetkit-styleguide/components')) { ?>
+		<ul>
+			<li>
+				<a href="/wetkit-styleguide/components/menu/all">Menu</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/components/overlay/all">Overlay</a>
+			</li>
+			<li>
+				<a href="/wetkit-styleguide/components/tabs/all">Tabs</a>
+			</li>
+		</ul>
+<?php } ?>
 	</li>
 </ul>
