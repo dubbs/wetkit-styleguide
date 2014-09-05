@@ -60,6 +60,9 @@
 				<a href="/wetkit-styleguide/elements/category/tabular-data">tables</a>
 			</li>
 			<li>
+				<a href="/wetkit-styleguide/elements/category/embedded-content">audio & video</a>
+			</li>
+			<li>
 				<a href="/wetkit-styleguide/elements/category/interactive-elements">details & summary</a>
 			</li>
 		</ul>

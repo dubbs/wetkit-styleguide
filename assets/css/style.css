@@ -13,29 +13,3 @@ figure figcaption {
 figure figcaption p {
 	margin: 0;
 }
-summary {
-	position: relative;
-}
-summary a {
-	display: none;
-	position: absolute;
-	right: 15px;
-	top: 15px;
-}
-summary:hover a {
-	display: block;
-}
-
-:target {
-    -webkit-animation: target-fade 1s 1;
-    -moz-animation: target-fade 1s 1;
-}
-
-@-webkit-keyframes target-fade {
-    0% { background-color: rgba(255, 255, 0, .5); }
-    100% { background-color: rgba(255, 255, 0, 0); }
-}
-@-moz-keyframes target-fade {
-    0% { background-color: rgba(255, 255, 0, .1); }
-    100% { background-color: rgba(255, 255, 0, 0); }
-}
