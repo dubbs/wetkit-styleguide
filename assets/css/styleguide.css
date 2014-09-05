@@ -3,21 +3,21 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.pattern {
+.pattern-example {
+  padding: 20px;
   border: 1px solid #ddd;
-  padding: 15px;
 }
-.pattern, details {
-	margin-bottom: 16px;
+.pattern {
+  padding: 30px;
+  margin-top: 15px;
 }
 .pattern summary {
   background: #eee;
-  margin: -15px;
   padding: 15px;
   margin-bottom: 0;
 }
 pre {
-  margin: 0 -15px;
+  margin: 0;
   border: none !important;
   border-bottom: 1px solid #ddd !important;
 }

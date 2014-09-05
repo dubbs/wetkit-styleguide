@@ -16,7 +16,9 @@ function patternize($title, $filename) {
 	echo '  </code></pre>' . "\n";
 
 	echo ' </details>' . "\n";
+	echo ' <div class="pattern-example">' . "\n";
 	include $filename;
+	echo ' </div>' . "\n";
 	echo "\n" . '</div>' . "\n\n";
 }
 
